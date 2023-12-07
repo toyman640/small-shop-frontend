@@ -1,39 +1,61 @@
-.App {
-  text-align: center;
+.Container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MenuList {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Hamburger {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 90%;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.Bar {
+  background-color: #333;
+  height: 3px;
+  width: 25px;
+  margin: 2px 0;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Hamburger.open .Bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.Hamburger.open .Bar:nth-child(2) {
+  opacity: 0;
+}
+
+.Hamburger.open .Bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (min-width: 769px) {
+  .MenuList {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    margin-left: 40%;
+    justify-content: space-between;
   }
 
-  to {
-    transform: rotate(360deg);
+  .MenuList a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .NavLinks {
+    display: block;
+    width: 50%;
+  }
+
+  .Hamburger {
+    display: none;
   }
 }
