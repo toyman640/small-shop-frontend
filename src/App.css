@@ -85,8 +85,17 @@ body {
   }
 
   .BannerText {
-    padding-left: 20%;
-    padding-top: 20%;
-    padding-bottom: 21%;
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 31%;
+  }
+
+  .MainWork {
+    position: absolute;
+    font-size: 4em;
+    background-image: url('milkyway.jpg');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
