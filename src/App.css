@@ -69,7 +69,7 @@ body {
   .Store {
     font-size: 0.9em;
     color: #fff !important;
-    background-color: #1d66e9;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,102,233,1) 35%, rgba(0,212,255,1) 100%);
     padding: 4px 16px;
     border-radius: 20px;
     
@@ -87,7 +87,7 @@ body {
   .BannerText {
     padding-left: 10%;
     padding-top: 15%;
-    padding-bottom: 31%;
+    padding-bottom: 20%;
   }
 
   .MainWork {
@@ -97,5 +97,9 @@ body {
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .Slogan {
+    margin-top: 10%;
   }
 }
