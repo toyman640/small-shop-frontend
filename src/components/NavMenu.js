@@ -29,7 +29,7 @@ const NavMenu = () => {
           <ul className={`MenuList ${isOpen ? 'open' : ''}`}>
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/login">Log In</NavLink></li>
-            <li><NavLink to="/shop">Products</NavLink></li>
+            <li><NavLink to="/shop" className="Store">Store</NavLink></li>
             <li><NavLink to="/cart">Cart</NavLink></li>
           </ul>
         </div>
