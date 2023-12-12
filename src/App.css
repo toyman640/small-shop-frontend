@@ -78,7 +78,7 @@ body {
     display: none;
   }
 
-  .Home-page {
+  .BannerCover {
     background-image: url('banner.jpg');
     background-size: cover;
   }
@@ -86,7 +86,7 @@ body {
   .BannerText {
     padding-left: 10%;
     padding-top: 15%;
-    padding-bottom: 20%;
+    padding-bottom: 22%;
   }
 
   .MainWork {
@@ -102,5 +102,22 @@ body {
     font-size: 1.5em;
     margin-top: 10%;
     font-style: italic;
+  }
+
+  .LatestProduct {
+
+  }
+
+  .SectionTitle {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .TitleUnder {
+    width: 5%;
+    height: 2px;
+    margin-top: -2%;
+    background-color: #1d66e9;
+    border-radius: 8px;
   }
 }

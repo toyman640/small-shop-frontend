@@ -1,10 +1,11 @@
 import React from 'react';
 import Banner from './homeComponents/Banner';
+import LatestProducts from './homeComponents/LatestProduct';
 
 const Home = () => (
   <div className="Home-page">
     <Banner />
-    <h2>This is Home Component</h2>
+    <LatestProducts />
   </div>
 );
 
