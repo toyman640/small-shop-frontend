@@ -120,4 +120,21 @@ body {
     background-color: #1d66e9;
     border-radius: 8px;
   }
+
+  .ImageSection {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+  }
+
+  .ProductImage {
+    height: 400px;
+    border-radius: 8px;
+  }
+
+  .ProductImageLong {
+    height: 250px;
+    border-radius: 8px;
+  }
 }
