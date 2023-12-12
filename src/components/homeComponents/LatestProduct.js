@@ -13,14 +13,14 @@ const LatestProducts = () => (
     <p className="SectionTitle">Latest Collection</p>
     <hr className="TitleUnder" />
     <div className="ImageSection">
-      <img className="ProductImageLong" src={img1} alt="Product 1" />
-      <img className="ProductImage" src={img2} alt="Product 2" />
-      <img className="ProductImageLong" src={img3} alt="Product 3" />
-      <img className="ProductImage" src={img4} alt="Product 4" />
-      <img className="ProductImageLong" src={img5} alt="Product 5" />
-      <img className="ProductImage" src={img6} alt="Product 6" />
-      <img className="ProductImageLong" src={img7} alt="Product 7" />
-      <img className="ProductImage" src={img8} alt="Product 8" />
+      <img className="ProductImage1" src={img1} alt="Product 1" />
+      <img className="ProductImage2" src={img2} alt="Product 2" />
+      <img className="ProductImage3" src={img3} alt="Product 3" />
+      <img className="ProductImage4" src={img4} alt="Product 4" />
+      <img className="ProductImage5" src={img5} alt="Product 5" />
+      <img className="ProductImage6" src={img6} alt="Product 6" />
+      <img className="ProductImage7" src={img7} alt="Product 7" />
+      <img className="ProductImage8" src={img8} alt="Product 8" />
     </div>
   </div>
 );

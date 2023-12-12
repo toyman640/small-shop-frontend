@@ -81,6 +81,7 @@ body {
   .BannerCover {
     background-image: url('banner.jpg');
     background-size: cover;
+    border-bottom-left-radius: 150px;
   }
 
   .BannerText {
@@ -128,12 +129,56 @@ body {
     /* border: 1px solid red; */
   }
 
+  .Home-page {
+    background-color: #fff;
+  }
+
   .ProductImage {
     height: 400px;
     border-radius: 8px;
   }
 
   .ProductImageLong {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .ProductImage1 {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .ProductImage2 {
+    height: 500px;
+    border-radius: 8px;
+  }
+
+  .ProductImage3 {
+    height: 800px;
+    border-radius: 8px;
+  }
+
+  .ProductImage4 {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .ProductImage5 {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .ProductImage6 {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .ProductImage7 {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .ProductImage8 {
     height: 250px;
     border-radius: 8px;
   }
