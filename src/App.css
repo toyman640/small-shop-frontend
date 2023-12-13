@@ -120,6 +120,9 @@ body {
   }
 
   .ImageSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
     margin-top: 5%;
     width: 90%;
     margin-left: 5%;
@@ -253,6 +256,54 @@ body {
   }
 
   .ProductImage2:hover .Image-desc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+
+  .ProductImage3:hover .Image-desc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+
+  .ProductImage4:hover .Image-desc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+
+  .ProductImage5:hover .Image-desc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+
+  .ProductImage6:hover .Image-desc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+
+  .ProductImage7:hover .Image-desc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+
+  .ProductImage8:hover .Image-desc1 {
     display: flex;
     flex-direction: column;
     align-items: center;

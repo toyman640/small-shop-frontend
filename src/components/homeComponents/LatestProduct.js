@@ -61,13 +61,6 @@ const LatestProducts = () => (
           <p>Loder than every than you can think of</p>
         </div>
       </div>
-      {/* <img className="ProductImage2 Translate" src={img2} alt="Product 2" />
-      <img className="ProductImage3 Translate" src={img3} alt="Product 3" />
-      <img className="ProductImage4 Translate" src={img4} alt="Product 4" />
-      <img className="ProductImage5 Translate" src={img5} alt="Product 5" />
-      <img className="ProductImage6 Translate" src={img6} alt="Product 6" />
-      <img className="ProductImage7 Translate" src={img7} alt="Product 7" />
-      <img className="ProductImage8 Translate" src={img8} alt="Product 8" /> */}
     </div>
   </div>
 );
