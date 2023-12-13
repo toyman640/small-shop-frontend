@@ -21,8 +21,8 @@ const LatestProducts = () => (
       </div>
       <div className="ProductImage2 Translate">
         <div className="Image-desc1">
-          <p>Loud Boom</p>
-          <p>Loder than every than you can think of</p>
+          <p>Iphone 50</p>
+          <p>If sleek was an object... well</p>
         </div>
       </div>
       <div className="ProductImage3 Translate">

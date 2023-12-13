@@ -232,7 +232,7 @@ body {
 
   .Translate {
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.9s ease;
   }
 
   .Translate:hover {
@@ -309,5 +309,13 @@ body {
     align-items: center;
     justify-content: center;
     height: inherit;
+  }
+
+  .TrendCover {
+    background-color: #fff;
+  }
+
+  .TrendSection {
+
   }
 }
