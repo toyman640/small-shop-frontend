@@ -3,8 +3,8 @@ import React from 'react';
 const Trending = () => (
   <div className="TrendCover">
     <div className="TrendSection">
-      <p className="SectionTitle">Trending</p>
-      <hr className="TitleUnder" />
+      <p className="SectionTrend">Trending</p>
+      <hr className="TitleUnderTrend" />
     </div>
   </div>
 );
