@@ -345,12 +345,9 @@ body {
     width: 90%;
     margin-left: 5%;
     border: 1px solid red;
-
-
   }
 
   .CardImage {
     height: 200px;
-  
   }
 }
