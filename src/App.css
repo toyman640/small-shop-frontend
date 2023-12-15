@@ -117,6 +117,7 @@ body {
     margin-top: -2%;
     background-color: #1d66e9;
     border-radius: 8px;
+    border: 1px solid #1d66e9;
   }
 
   .ImageSection {
@@ -313,5 +314,40 @@ body {
 
   .TrendCover {
     background-color: #fff;
+    margin-top: 5%;
+  }
+
+  .TrendSection {
+    padding-top: 10%;
+    background-color: #000;
+    border-top-right-radius: 200px;
+  }
+
+  .TitleUnderTrend {
+    height: 2px;
+    width: 5%;
+    margin-top: 0;
+    background-color: #1d66e9;
+    border-radius: 50px;
+    border: 1px solid #1d66e9;
+  }
+
+  .SectionTrend {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  .CardGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid red;
+  }
+
+  .CardImage {
+    height: 200px;
   }
 }
