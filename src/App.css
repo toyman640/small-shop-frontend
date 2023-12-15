@@ -338,4 +338,19 @@ body {
     color: #fff;
     margin-bottom: 0;
   }
+
+  .CardGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid red;
+
+
+  }
+
+  .CardImage {
+    height: 200px;
+  
+  }
 }
