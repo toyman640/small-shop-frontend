@@ -1,12 +1,4 @@
 import React from 'react';
-// import img1 from '../../images/img-1.jpg';
-// import img2 from '../../images/img-2.jpg';
-// import img3 from '../../images/img-3.jpg';
-// import img4 from '../../images/img-4.jpg';
-// import img5 from '../../images/img-5.jpg';
-// import img6 from '../../images/img-6.jpg';
-// import img7 from '../../images/img-7.jpg';
-// import img8 from '../../images/img-8.jpg';
 
 const LatestProducts = () => (
   <div className="LatestProduct">
