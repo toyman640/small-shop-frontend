@@ -321,6 +321,7 @@ body {
     padding-top: 10%;
     background-color: #000;
     border-top-right-radius: 200px;
+    padding-bottom: 5%;
   }
 
   .TitleUnderTrend {
@@ -349,5 +350,18 @@ body {
 
   .CardImage {
     height: 200px;
+  }
+
+  .FooterTitle {
+    font-size: 2em;
+    
+  }
+
+  .FooterSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #eccc8c;
+    align-items: center;
+    
   }
 }
