@@ -345,7 +345,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 90%;
     margin-left: 5%;
-    border: 1px solid red;
+    
   }
 
   .CardImage {
@@ -364,7 +364,8 @@ body {
     background-color: #eccc8c;
     align-items: center;
     padding-top: 5%;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
+    border: 1px solid red;
   }
 
   .SocialGroup {
@@ -379,10 +380,5 @@ body {
 
   .SocialIcons {
     height: 30px;
-  }
-
-  .CopyRight {
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 }
