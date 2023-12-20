@@ -321,6 +321,7 @@ body {
     padding-top: 10%;
     background-color: #000;
     border-top-right-radius: 200px;
+    padding-bottom: 5%;
   }
 
   .TitleUnderTrend {
@@ -344,10 +345,37 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 90%;
     margin-left: 5%;
-    border: 1px solid red;
   }
 
   .CardImage {
     height: 200px;
+  }
+
+  .FooterTitle {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+
+  .FooterSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #eccc8c;
+    align-items: center;
+    padding-top: 5%;
+  }
+
+  .SocialGroup {
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    width: 7%;
+    justify-content: space-between;
+  }
+
+  .SocialIcons {
+    height: 30px;
   }
 }
