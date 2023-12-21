@@ -1,8 +1,12 @@
 import React from 'react';
+import Footer from './Footer';
 
 const Cart = () => (
   <div>
-    <h2>This is Cart Component</h2>
+    <div className="CartSetion">
+      <h2>Why up</h2>
+    </div>
+    <Footer />
   </div>
 );
 

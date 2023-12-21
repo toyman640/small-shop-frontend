@@ -45,8 +45,9 @@ body {
 
 @media (min-width: 769px) {
   .Navigation {
-    position: absolute;
+    /* position: absolute; */
     width: 99.9%;
+    background-color: #edc278;
   }
 
   .MenuList {
@@ -377,5 +378,9 @@ body {
 
   .SocialIcons {
     height: 30px;
+  }
+
+  .CartSetion {
+    margin-top: 5%;
   }
 }
