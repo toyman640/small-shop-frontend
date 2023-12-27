@@ -383,4 +383,23 @@ body {
   .CartSetion {
     margin-top: 5%;
   }
+
+  .CartTitle {
+    text-align: center;
+  }
+
+  .Table {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .CartHr {
+    width: 100%;
+   
+    
+  }
 }
