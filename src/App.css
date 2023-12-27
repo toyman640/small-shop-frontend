@@ -410,5 +410,6 @@ body {
 
   .TableBody {
     padding-top: 5%;
+    border: 1px solid red;
   }
 }

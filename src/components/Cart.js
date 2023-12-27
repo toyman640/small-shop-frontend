@@ -13,7 +13,7 @@ const Cart = () => (
           <th>Price($)</th>
         </thead>
         <tbody>
-          <tr className="TableBody">
+          <tr>
             <td>Iphone 12</td>
             <td>1</td>
             <td>400</td>
