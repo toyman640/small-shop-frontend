@@ -391,6 +391,7 @@ body {
   .Table {
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 10%;
   }
 
   td {
@@ -401,5 +402,13 @@ body {
     width: 100%;
    
     
+  }
+
+  .Total {
+    font-weight: 700;
+  }
+
+  .TableBody {
+    padding-top: 5%;
   }
 }

@@ -10,14 +10,14 @@ const Cart = () => (
           <th>Item</th>
           <th>Quantity</th>
           <th>Price P/Q</th>
-          <th>Price</th>
+          <th>Price($)</th>
         </thead>
         <tbody>
-          <tr>
+          <tr className="TableBody">
             <td>Iphone 12</td>
             <td>1</td>
-            <td>$400</td>
-            <td>$400</td>
+            <td>400</td>
+            <td>400</td>
           </tr>
           <tr>
             <td colSpan="4" aria-label="Separator" className="CartHr">
@@ -28,8 +28,8 @@ const Cart = () => (
           <tr>
             <td>Alien Ware</td>
             <td>1</td>
-            <td>$1200</td>
-            <td>$1200</td>
+            <td>1200</td>
+            <td>1200</td>
           </tr>
           <tr>
             <td colSpan="4" aria-label="Separator" className="CartHr">
@@ -40,8 +40,18 @@ const Cart = () => (
           <tr>
             <td>Spy pen 3</td>
             <td>1</td>
-            <td>$85</td>
-            <td>$85</td>
+            <td>85</td>
+            <td>85</td>
+          </tr>
+          <tr>
+            <td colSpan="4" aria-label="Separator" className="CartHr">
+              &nbsp;
+              <hr />
+            </td>
+          </tr>
+          <tr>
+            <td colSpan="3" className="Total">TOTAL</td>
+            <td className="Total">1685</td>
           </tr>
         </tbody>
       </table>
