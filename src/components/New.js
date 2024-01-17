@@ -17,6 +17,7 @@ const NewCat = () => {
         <div key={category.id}>
           <p>
             {category.name}
+            {category.description}
           </p>
 
         </div>
