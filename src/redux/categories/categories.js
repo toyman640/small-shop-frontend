@@ -1,7 +1,7 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const GET_CAT_URL = 'http://127.0.0.1:3000/api/v1/categories'
+const GET_CAT_URL = 'http://127.0.0.1:3000/api/v1/categories';
 
 const initialState = {
   categories: [],
@@ -16,7 +16,7 @@ export const fetchCategories = createAsyncThunk('categories/fetchCategories', as
   }
 });
 
-const CategoriesSlice = createSlice ({
+const CategoriesSlice = createSlice({
   name: 'categories',
   initialState,
   reducers: {},
@@ -34,7 +34,7 @@ const CategoriesSlice = createSlice ({
         state.loading = false;
         state.error = action.error.message;
       });
-  }
-})
+  },
+});
 
 export default CategoriesSlice.reducer;

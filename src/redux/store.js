@@ -1,4 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from '@reduxjs/toolkit';
 import categoriesReducer from './categories/categories';
 
 export const store = configureStore({
