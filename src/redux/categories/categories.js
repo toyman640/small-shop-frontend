@@ -9,7 +9,13 @@ const initialState = {
 
 export const fetchCategories = createAsyncThunk('categories/fetchCategories', async () => {
   try {
-    const response = await axios.get(GET_CAT_URL);
+    const response = await axios.get(GET_CAT_URL, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      mode: 'cors',
+    });
     return response.data;
   } catch (err) {
     return err.message;
