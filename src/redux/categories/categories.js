@@ -1,7 +1,7 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const GET_CAT_URL = 'http://127.0.0.1:3000/api/v1/categories'
+const GET_CAT_URL = 'http://127.0.0.1:3000/api/v1/categories';
 
 const initialState = {
   categories: [],
@@ -16,34 +16,28 @@ export const fetchCategories = createAsyncThunk('categories/fetchCategories', as
   }
 });
 
-const categoriesSlice = createSlice ({
+const categoriesSlice = createSlice({
   name: 'categories',
   initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(fetchCategories.pending, (state) => {
-        return {
-          ...state,
-          loading: true,
-          error: null,
-        }
-      })
-      .addCase(fetchCategories.fulfilled, (state, action) => {
-        return {
-          ...state,
-          loading: false,
-          categories: action.payload,
-        }
-      })
-      .addCase(fetchCategories.rejected, (state, action) => {
-        return {
-          ...state,
-          loading: false,
-          error: action.err.message,
-        }
-      });
-  }
-})
+      .addCase(fetchCategories.pending, (state) => ({
+        ...state,
+        loading: true,
+        error: null,
+      }))
+      .addCase(fetchCategories.fulfilled, (state, action) => ({
+        ...state,
+        loading: false,
+        categories: action.payload,
+      }))
+      .addCase(fetchCategories.rejected, (state, action) => ({
+        ...state,
+        loading: false,
+        error: action.err.message,
+      }));
+  },
+});
 
 export default categoriesSlice.reducer;
