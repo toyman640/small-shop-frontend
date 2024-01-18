@@ -16,6 +16,16 @@ export const fetchCategories = createAsyncThunk('categories/fetchCategories', as
   }
 });
 
+export const createCategories = createAsyncThunk('newCategory', async (newCategory, thunkAPI) => {
+  try {
+    await axios.post(GET_CAT_URL, newCategory, { mode: 'cors' });
+    const response = await thunkAPI.dispatch(fetchCategories());
+    return [...response.data];
+  } catch (err) {
+    return err.message;
+  }
+});
+
 const categoriesSlice = createSlice({
   name: 'categories',
   initialState,
