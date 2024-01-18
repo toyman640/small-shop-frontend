@@ -20,6 +20,19 @@ const NewCat = () => {
 
         </div>
       ))}
+      <div>
+        <form>
+          <label onSubmit={handleSubmit}>
+            Name:
+            <input type="text" name="name" placeholder="Category name" />
+          </label>
+          <label>
+            Description:
+            <input type="text" name="Description" placeholder="Decription" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </div>
   );
 };
