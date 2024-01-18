@@ -4,7 +4,7 @@ import axios from 'axios';
 const GET_POST_URL = 'http://127.0.0.1:3000/api/v1/posts';
 
 const initialState = {
-  posts : [],
+  posts: [],
 };
 
 export const fetchPosts = createAsyncThunk('posts/fetchPosts', async () => {
@@ -14,7 +14,7 @@ export const fetchPosts = createAsyncThunk('posts/fetchPosts', async () => {
   } catch (err) {
     return err.message;
   }
-})
+});
 
 const postSlice = createSlice({
   name: 'posts',
@@ -37,6 +37,6 @@ const postSlice = createSlice({
         error: action.err.message,
       }));
   },
-})
+});
 
 export default postSlice.reducer;
