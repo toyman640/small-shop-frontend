@@ -8,6 +8,7 @@ import Checkout from './components/Checkout';
 import LogIn from './components/LogIn';
 import Shop from './components/Shop';
 import Home from './components/Home';
+import NewCat from './components/New';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/shop" element={<Shop />} />
         <Route exact path="/cart" element={<Cart />} />
         <Route exact path="/checkout" element={<Checkout />} />
+        <Route exact path="/new-product" element={<NewCat />} />
       </Routes>
     </BrowserRouter>
   );
