@@ -20,6 +20,15 @@ const Shop = () => {
 
         </div>
       ))}
+      <div>
+        <form>
+          <input type="text" name="title" placeholder="title" autoComplete="on" />
+          <input type="number" name="price" placeholder="Amount" autoComplete="on" />
+          <textarea type="text" name="description" placeholder="Decription" />
+          <input type="file" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </div>
   );
 };
