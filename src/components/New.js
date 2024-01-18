@@ -6,9 +6,7 @@ const NewCat = () => {
   const dispatch = useDispatch();
   const categories = useSelector((state) => state.categories.categories);
   useEffect(() => {
-    dispatch(fetchCategories()).then((action) => {
-      console.log('Fetch Categories Action:', action);
-    });
+    dispatch(fetchCategories());
   }, [dispatch]);
   return (
     <div>
