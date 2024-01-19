@@ -16,6 +16,16 @@ export const fetchPosts = createAsyncThunk('posts/fetchPosts', async () => {
   }
 });
 
+export const createPosts = createAsyncThunk('newPosts/createPosts', async (newPost, thunkAPI) => {
+  try {
+    await axios.post(GET_POST_URL, newPost, { mode: 'cors' });
+    const response = await thunkAPI.dispatch(fetchPosts());
+    return [...response.data];
+  } catch (err) {
+    return err.message;
+  }
+});
+
 const postSlice = createSlice({
   name: 'posts',
   initialState,
