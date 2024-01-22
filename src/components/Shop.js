@@ -60,11 +60,14 @@ const Shop = () => {
           <p>
             {post.description}
           </p>
+          <img
+            src={post.image_data_url}
+            alt={` for ${post.title}`}
+            style={{ maxWidth: '100%', height: 'auto' }}
+          />
           {/* {post.image && (
-            <img src={post.image_data} alt={` for ${post.title}`}
-            style={{ maxWidth: '100%', height: 'auto' }} />
           )} */}
-          {post.image_data && (
+          {/* {post.image_data && (
             <>
               <p>Image Metadata:</p>
               <ul>
@@ -79,12 +82,12 @@ const Shop = () => {
                 ))}
               </ul>
               <img
-                src={`http://127.0.0.1:3000/${JSON.parse(post.image_data).metadata.filename}`}
+                src={`http://127.0.0.1:3000/${JSON.parse(post.image_data).metadata.id}`}
                 alt={` for ${post.title}`}
                 style={{ maxWidth: '100%', height: 'auto' }}
               />
             </>
-          )}
+          )} */}
 
         </div>
       ))}
