@@ -39,7 +39,7 @@ const postSlice = createSlice({
       .addCase(fetchPosts.fulfilled, (state, action) => ({
         ...state,
         loading: false,
-        categories: action.payload,
+        posts: action.payload,
       }))
       .addCase(fetchPosts.rejected, (state, action) => ({
         ...state,
